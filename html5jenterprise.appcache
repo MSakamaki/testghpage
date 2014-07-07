@@ -1,0 +1,54 @@
+CACHE MANIFEST
+# リソースを更新する場合、必ず値を変更する
+# マニフェストファイルを保存しておく場所は、htmlファイルと同じディレクトリです
+# 2013-07-07 20:20
+
+# キャッシュしたいリソース
+# このうち一つでもファイルが見つからないとエラーになりキャッシュされません。
+CACHE:
+index.html
+views/main.html
+views/readme.html
+views/aboutus.html
+views/ustream.html
+views/archive.html
+posts/event/2013-03-15-html51.html
+posts/event/2013-05-10-html52.html
+posts/event/2013-08-01-html53.html
+posts/event/2013-09-09-html54.html
+posts/event/2013-10-31-html55.html
+posts/event/2014-01-27-html56.html
+img/btn_mini_facebook.png
+img/btn_mini_twitter.png
+img/html5logo.png
+css/bootstrap.min.css
+css/bootstrap-responsive.min.css
+css/main.css
+js/main.js
+js/analytics.js
+js/controllers/main.js
+js/vendor/bootstrap.min.js
+js/vendor/jquery-1.9.1.min.js
+js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
+bower_components/angular/angular.min.js
+bower_components/angular-resource/angular-resource.min.js
+bower_components/angular-cookies/angular-cookies.min.js
+bower_components/angular-sanitize/angular-sanitize.min.js
+bower_components/angular-route/angular-route.min.js
+bower_components/angular/angular.min.js.map
+bower_components/angular-resource/angular-resource.min.js.map
+bower_components/angular-cookies/angular-cookies.min.js.map
+bower_components/angular-sanitize/angular-sanitize.min.js.map
+bower_components/angular-route/angular-route.min.js.map
+bower_components/jquery-touchswipe/jquery.touchSwipe.min.js
+events/events.json
+events/archive.json
+
+# 常にネットワーク上を参照して欲しい場合に使用
+# 必ずオンラインアクセスを試みるリソース
+NETWORK:
+*
+
+# 代替エントリを宣言
+# アクセスに失敗した場合に代わりに使用するリソース（NETWORK:と両方に指定すると動作しない）
+FALLBACK:
